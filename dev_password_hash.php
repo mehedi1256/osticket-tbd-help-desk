@@ -1,6 +1,12 @@
 <?php
 // Simple local-only tool to see how osTicket hashes a plain password.
-// Do NOT deploy this file to production.
+// Access is restricted to localhost to avoid exposing this in production.
+
+if (!in_array($_SERVER['REMOTE_ADDR'] ?? '', ['127.0.0.1', '::1'])) {
+    http_response_code(403);
+    echo 'Forbidden';
+    exit;
+}
 
 require_once __DIR__ . '/bootstrap.php';
 
