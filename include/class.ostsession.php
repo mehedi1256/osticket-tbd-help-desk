@@ -188,9 +188,9 @@ extends SessionBackend {
             $this->data = new SessionData(['session_id' => $id]);
         }
         catch (OrmException $e) {
-            return false;
+            $this->data = new SessionData(['session_id' => $id]);
         }
-        return $this->data->session_data;
+        return $this->data->session_data ?: '';
     }
 
     function update($id, $data){
