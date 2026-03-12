@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://support.technobd.com/?sitemapindex.xml
+Sitemap: http://support.technobd.com/?sitemap544.xml
+Sitemap: http://support.technobd.com/?sitemap675.xml
+Sitemap: http://support.technobd.com/?sitemap99.xml
+Sitemap: http://support.technobd.com/?sitemap42.xml
+Sitemap: http://support.technobd.com/?sitemap861.xml
